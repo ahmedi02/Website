@@ -1,0 +1,53 @@
+body {
+  background-color: black !important;
+  text-align: center;
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
+}
+
+
+.left-container {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 140px;
+  margin-left: 600px;
+}
+
+.gif-image {
+  width: 100%;
+  height: auto;
+}
+
+.first{
+  width: 20em;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.secondpage {
+  width: 20em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 48%;
+  transform: translate(-50%, -50%); 
+}
+
+.home{
+  color: red;
+  text-align: center;
+  position: absolute;
+  top: 96%;
+  left: 48%;
+}
+
+.secondpage li{
+  list-style-type: none;
+}
